@@ -1,0 +1,615 @@
+{
+  "opcda": {
+    "service": "192.168.42.2",
+    "blocks": [
+      {
+        "schema": "Gate",
+        "items": [
+          {
+            "alias": "TruckCardID",
+            "name": "CARDNO[1]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "DriverCardID",
+            "name": "CARDNO[2]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MSResponseFlag",
+            "name": "MSRF",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ErrorCode",
+            "name": "ER",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "OrderNo",
+            "name": "ORDERNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Product",
+            "name": "PROD",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TruckLicense",
+            "name": "TRUCKLIC",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "BayNo",
+            "name": "BAYNO",
+            "rows": 1,
+            "columns": 1
+          }
+        ]
+      },
+      {
+        "schema": "WeightBridge",
+        "items": [
+          {
+            "alias": "TruckCardID",
+            "name": "CARDNO[1]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "DriverCardID",
+            "name": "CARDNO[2]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MSResponseFlag",
+            "name": "MSRF",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ErrorCode",
+            "name": "ER",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Weight",
+            "name": "WEIGHT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "OrderNo",
+            "name": "ORDERNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Product",
+            "name": "PROD",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TruckLicense",
+            "name": "TRUCKLIC",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "BayNo",
+            "name": "BAYNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "WeighingType",
+            "name": "WEIGHTYP",
+            "rows": 1,
+            "columns": 1
+          }
+        ]
+      },
+      {
+        "schema": "Bay",
+        "items": [
+          {
+            "alias": "TruckCardID",
+            "name": "CARDNO[1]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "DriverCardID",
+            "name": "CARDNO[2]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MSResponseFlag",
+            "name": "MSRF",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ErrorCode",
+            "name": "ER",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "OrderNo",
+            "name": "ORDNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActivityNo",
+            "name": "ACTNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Product",
+            "name": "PROD",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TruckLicense",
+            "name": "TRUCKLIC",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "DriverName",
+            "name": "DRIVNAME",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Transporter",
+            "name": "TRANSP",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TargetQuantity",
+            "name": "TRGTQTY",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LoadedQuantity",
+            "name": "LOADQTY",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStartLiquidMass",
+            "name": "LQDSTR",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStartVaporMass",
+            "name": "VPRSTR",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStopLiquidMass",
+            "name": "LQDSTP",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStopVaporMass",
+            "name": "VPRSTP",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "StartTime",
+            "name": "STARTTM",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "EndTime",
+            "name": "ENDTM",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ExpectedEndTime",
+            "name": "EXENDTM",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LoadingRate",
+            "name": "LDRT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "JobStatus",
+            "name": "JOBSTS",
+            "rows": 1,
+            "columns": 1
+          }
+        ]
+      },
+      {
+        "schema": "ShipUnloading",
+        "items": [
+          {
+            "alias": "MSResponseFlag",
+            "name": "MSRF",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ErrorCode",
+            "name": "ER",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "OrderNo",
+            "name": "ORDER",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActivityNo",
+            "name": "ACTNO",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActivityTargetQty",
+            "name": "ACTTGT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Product",
+            "name": "PRODNAME",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Ship",
+            "name": "SHIPNAME",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Jetty",
+            "name": "JETTY",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "Additive",
+            "name": "ADDNAME",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "AdditiveTargetQty",
+            "name": "ADDTGT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "DestinationTanks",
+            "name": "DESTK",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "TankStopConditionType",
+            "name": "STPTYP[1]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TankStopConditionValue",
+            "name": "STPQTY[1]",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActivityActualStartTime",
+            "name": "ACTSTT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActivityActualStopTime",
+            "name": "ACTSPT",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TotalReceivedQtyByMeter",
+            "name": "TOTMTR",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TotalReceivedQtyByTank",
+            "name": "TOTTK",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "ActualReceivedQtyOfTanks",
+            "name": "ACTTK",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "ActualAdditiveInjectedQty",
+            "name": "ACTADD",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStartLiquidMass",
+            "name": "LQDSTR",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStartVaporMass",
+            "name": "VPRSTR",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStopLiquidMass",
+            "name": "LQDSTP",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "MeterStopVaporMass",
+            "name": "VPRSTP",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "OperationStatusOfTanks",
+            "name": "TKSTS",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenTimeOfTanks",
+            "name": "TKTMT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenDensityOfTanks",
+            "name": "TKDSTT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenTemperatureOfTanks",
+            "name": "TKTMPT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenVaporTemperatureOfTanks",
+            "name": "TKVTMT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenLevelOfTanks",
+            "name": "TKLVLT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenTOVOfTanks",
+            "name": "TKTOVT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenGOVOfTanks",
+            "name": "TKGOVT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenGSVOfTanks",
+            "name": "TKGSVT",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "OpenMassOfTanks",
+            "name": "TKMAST",
+            "rows": 2,
+            "columns": 1
+          },
+
+          {
+            "alias": "StopTimeOfTanks",
+            "name": "TKTMP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopDensityOfTanks",
+            "name": "TKDSTP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopTemperatureOfTanks",
+            "name": "TKTMPP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopVaporTemperatureOfTanks",
+            "name": "TKVTMP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopLevelOfTanks",
+            "name": "TKLVLP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopTOVOfTanks",
+            "name": "TKTOVP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopGOVOfTanks",
+            "name": "TKGOVP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopGSVOfTanks",
+            "name": "TKGSVP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "StopMassOfTanks",
+            "name": "TKMASP",
+            "rows": 2,
+            "columns": 1
+          },
+          {
+            "alias": "JobStatus",
+            "name": "JOBSTS",
+            "rows": 1,
+            "columns": 1
+          }
+        ]
+      },
+      {
+        "schema": "TGS",
+        "items": [
+          {
+            "alias": "LiquidLevel",
+            "name": "XDT03",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidObservedDensity",
+            "name": "DT04",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidReferenceDensity",
+            "name": "DT05",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidTemperature",
+            "name": "DT06",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidTOV",
+            "name": "DT07",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidGOV",
+            "name": "DT08",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidGSV",
+            "name": "DT09",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidNSV",
+            "name": "DT10",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "LiquidMass",
+            "name": "DT11",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "WaterLevel",
+            "name": "DT12",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "WaterVolume",
+            "name": "DT13",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "VapourTemperature",
+            "name": "DT14",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "VapourPressure",
+            "name": "DT15",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "VapourMass",
+            "name": "DT16",
+            "rows": 1,
+            "columns": 1
+          },
+          {
+            "alias": "TotalMass",
+            "name": "DT01",
+            "rows": 1,
+            "columns": 1
+          }
+        ]
+      }
+    ]
+  }
+}
