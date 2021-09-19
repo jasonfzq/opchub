@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\OpcHub.Ae.Contract\AeEvent.cs" Link="Contract\AeEvent.cs" />
+    <Compile Include="..\OpcHub.Ae.Contract\AeFailureType.cs" Link="Contract\AeFailureType.cs" />
+    <Compile Include="..\OpcHub.Ae.Contract\AeHealthInfo.cs" Link="Contract\AeHealthInfo.cs" />
+    <Compile Include="..\OpcHub.Ae.Contract\AeState.cs" Link="Contract\AeState.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contract\" />
+  </ItemGroup>
+
+</Project>

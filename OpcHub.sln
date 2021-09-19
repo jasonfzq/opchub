@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpcHub.Ae.Contract", "src\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpcHub.Ae.Service", "src\Ae\OpcHub.Ae.Service\OpcHub.Ae.Service.csproj", "{B89A0409-92AA-4142-B115-4F91E85308E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpcHub.Ae.Client", "src\Ae\OpcHub.Ae.Client\OpcHub.Ae.Client.csproj", "{B2B96CAB-D4DE-407C-BB49-1295F0706850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{B89A0409-92AA-4142-B115-4F91E85308E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89A0409-92AA-4142-B115-4F91E85308E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89A0409-92AA-4142-B115-4F91E85308E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B96CAB-D4DE-407C-BB49-1295F0706850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B96CAB-D4DE-407C-BB49-1295F0706850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B96CAB-D4DE-407C-BB49-1295F0706850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B96CAB-D4DE-407C-BB49-1295F0706850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{8990C11B-E59F-41D6-BFD2-57817C93BA23} = {CC26500A-DB0B-4DBA-9205-97953AEE51B3}
 		{9D56904D-CAB6-4514-AE17-C95EDBFBDE39} = {791E60E2-1939-4C96-B576-BAE5A921F55A}
 		{B89A0409-92AA-4142-B115-4F91E85308E2} = {791E60E2-1939-4C96-B576-BAE5A921F55A}
+		{B2B96CAB-D4DE-407C-BB49-1295F0706850} = {791E60E2-1939-4C96-B576-BAE5A921F55A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00067D5A-E3B1-4734-AF2C-F323EF868809}
